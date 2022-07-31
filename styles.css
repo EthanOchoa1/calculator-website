@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    font-family: 'Mochiy Pop One', sans-serif;
+    text-align: center;
+    min-height: 9vh;
+    min-width: 8vh;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: radial-gradient(#e18fd8, #95bee4, #e7e78d);
+}
+.calculator {
+    min-height: 15vh;
+} 
+.row {
+    padding-bottom: .50%;
+    padding-left: 33%;
+    padding: auto;
+    font-size: 30px;
+    background-color: transparent;
+    
+}
+.display-border{
+    background-color: transparent;
+    border-width: 10rem;
+}
+.text-box {
+    background-color: transparent;
+    border-color: transparent;
+    font-size: xx-large;
+    width: 600px;
+}
